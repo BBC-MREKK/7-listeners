@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes the full height of the viewport */
+    margin: 0;
+    background-color: black;
+}
+  .box {
+    width: 160px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    /* border: 2px solid #333; */
+    background-color: #9f2cc5;
+    border-radius: 8px;
+    user-select: none;
+    text-align: center;
+    line-height: 100px; /* Center the text vertically */
+    transition: background-color 0.3s ease;
+  }
+  
+  .box:hover {
+    background-color: #2980b9;
+  }
+  .box.active {
+    background-color: blue;
+  }
